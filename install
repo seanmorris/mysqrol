@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+ln -s `pwd`'/mysqrol.sh' /usr/local/bin/mysqrol;
+ln -s `pwd`'/mysqrol.pl' /usr/local/bin/mysqrol_parse;
+chmod 777 /usr/local/bin/mysqrol
+chmod 777 /usr/local/bin/mysqrol_parse
